@@ -9,16 +9,43 @@ $(document).ready(function() {
 
     let languageResult;
     if (question1Input === "money") {
-      languageResult = "JavaScript";
+      if(question2Input === "yes" && question3Input === "yes" && question4Input === "yes" && question5Input === "someDifficultyIsFine") {
+        languageResult = "C#";
+      }
+      else if ((question5Input === "veryEasy" || question5Input === "relativelyEasy") && question3Input === "no"){
+        languageResult = "Python";
+      }
+      else {
+        languageResult = "JavaScript";
+      }
     } 
     else if (question1Input === "skill") {
-      languageResult = "Python";
+      if ((question5Input === "relativelyEasy" || question5Input === "someDifficultyIsFine") && question3Input === "yes") {
+        languageResult = "JavaScript";
+      }
+      else if (question5Input === "someDifficultyIsFine" && question4Input === "yes") {
+        languageResult = "C#";
+      }
+      else {
+        languageResult = "Python";
+      }
+      
     } 
     else if (question1Input === "idea") {
-      languageResult = "C#";
+      if(question2Input === "yes" && question3Input === "yes" && question4Input === "yes" && question5Input === "someDifficultyIsFine"){
+          languageResult = "C#";
+        }
+      else {
+        languageResult = "JavaScript";
+      }
     } 
     else {
-      languageResult = "Python";
+      if(question3Input === "yes"){
+        languageResult = "JavaScript";
+      }
+      else {
+        languageResult = "Python";
+      }
     }
 
     $("#result-python,#result-javascript,#result-csharp").hide();
