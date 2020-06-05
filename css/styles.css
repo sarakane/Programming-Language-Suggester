@@ -1,3 +1,11 @@
 #results, #result-javascript, #result-python, #result-csharp {
   display: none;
 }
+
+.btn {
+  margin-top: 20px;
+}
+
+.select-box {
+  width: auto;
+}

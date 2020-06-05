@@ -12,53 +12,55 @@
         <h1>Programming Language Suggester</h1>
         <form id="questions">
           <h3>Why do you want to learn a programming language?</h3>
-          <select class="form-control" id="question1">
-            <option value="money">I want to make money</option>
-            <option value="skill">I want to learn a new skill</option>
-            <option value="idea">I have a great idea</option>
-            <option value="dontknow">I don't know</option>
-          </select>
+          <div class="select-box">
+            <select class="form-control" id="question1">
+              <option value="money">I want to make money</option>
+              <option value="skill">I want to learn a new skill</option>
+              <option value="idea">I have a great idea</option>
+              <option value="dontknow">I don't know</option>
+            </select>
+          </div>
           <h3>Are you interested in web development?</h3>
-            <label class="radio-inline">
-              <input type="radio" name="question2" value="yes" checked>
-              Yes
-            </label>
-            <label class="radio-inline">
-              <input type="radio" name="question2" value="no">
-              No
-            </label>
+          <label class="radio-inline">
+            <input type="radio" name="question2" value="yes" checked>
+            Yes
+          </label>
+          <label class="radio-inline">
+            <input type="radio" name="question2" value="no">
+            No
+          </label>
           <h3>Are you interested in mobile app development?</h3>
-            <label class="radio-inline">
-              <input type="radio" name="question3" value="yes" checked>
-              Yes
-            </label>
-            <label class="radio-inline">
-              <input type="radio" name="question3" value="no">
-              No
-            </label>
+          <label class="radio-inline">
+            <input type="radio" name="question3" value="yes" checked>
+            Yes
+          </label>
+          <label class="radio-inline">
+            <input type="radio" name="question3" value="no">
+            No
+          </label>
           <h3>Would you be interested in working at Microsoft?</h3>
-            <label class="radio-inline">
-              <input type="radio" name="question4" value="yes" checked>
-              Yes
-            </label>
-            <label class="radio-inline">
-              <input type="radio" name="question4" value="no">
-              No
-            </label>
+          <label class="radio-inline">
+            <input type="radio" name="question4" value="yes" checked>
+            Yes
+          </label>
+          <label class="radio-inline">
+            <input type="radio" name="question4" value="no">
+            No
+          </label>
           <h3>How easy to learn do you want the language to be?</h3>
-            <label class="radio-inline">
-              <input type="radio" name="question5" value="veryEasy" checked>
-              Very Easy
-            </label>
-            <label class="radio-inline">
-              <input type="radio" name="question5" value="relativelyEasy">
-              Relatively Easy
-            </label>
-            <label class="radio-inline">
-              <input type="radio" name="question5" value="someDifficultyIsFine">
-              Some difficulty is fine
-            </label>
-          </br>
+          <label class="radio-inline">
+            <input type="radio" name="question5" value="veryEasy" checked>
+            Very Easy
+          </label>
+          <label class="radio-inline">
+            <input type="radio" name="question5" value="relativelyEasy">
+            Relatively Easy
+          </label>
+          <label class="radio-inline">
+            <input type="radio" name="question5" value="someDifficultyIsFine">
+            Some difficulty is fine
+          </label>
+          <br>
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>
         <div id="results">
