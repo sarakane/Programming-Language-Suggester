@@ -1,5 +1,5 @@
-#results, #result-javascript, #result-python, #result-csharp {
-  display: none;
+body {
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .btn {
@@ -19,5 +19,14 @@
   border: thin solid;
   border-radius: 3px;
   margin-top: 10px;
+  margin-bottom: 10px;
   padding: 10px;
+}
+
+#results, #result-javascript, #result-python, #result-csharp {
+  display: none;
+}
+
+.jumbotron {
+  background-color: lightsteelblue;
 }
