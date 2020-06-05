@@ -6,7 +6,8 @@
 
 ## Description
 
-This is a project for Epicodus to practice using jQuery and JavaScript with forms and branching statements.
+This is a project for Epicodus to practice using jQuery and JavaScript with forms and branching statements.  
+Check out the GitHub Pages site at: https://sarakane.github.io/Programming-Language-Suggester/
 
 ## Setup/Installation Requirements
 * Clone this repository from GitHub
